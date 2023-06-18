@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #ce929a;
+}
+nav {
+    font-family: "Poppins", sans-serif;
+}
+
+/* search box */
+ input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+ input:focus {
+    outline: none;
+}
+
+/* weatherinfo */
+.weatherinfo{
+    display:flex;
+    justify-content: center;
+     color: rgb(56, 27, 174); 
+     border: 4px solid rgb(38 113 130);
+    border-radius: 30px;
+    background-color: #d0ffe9;
+    margin: auto;
+    width: fit-content;
+}
+
+#Bigcity{
+align-self: center;
+margin-right: 5%;
+}
+
+.toptext{
+    margin-right:15px;
+}
+/* weather */
+#weather{
+    text-align: center;
+    font-size: 2rem;
+}
+#weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+} 
+/* #weather img{ transform: scale(0.8); } */
+.container {
+  background-color: #ffeded;
+  
+}
+
+.container-fluid {
+  background-color: rgb(38, 170, 227);
+}
+
+#cityName {
+  color: blue;
+}
+
+.my-0 {
+  color: white;
+  font-weight: 500;
+  background-color: rgb(20 40 9);
+  margin-top: 5%;
+}
+
+.row{
+   margin-top:3% ;
+}
+.card-header {
+   background-color: rgb(86 180 216); 
+}
+
+.card-body {
+  background-color: #d1fbff;
+  color: rgba(4, 0, 0, 0.902);
+}
+
+.card-title {
+  color: rgb(171 23 28);
+}
+
+.display-6 {
+  color: rgb(0 51 255);
+  font-weight: 500;
+  border: 4px solid rgb(65 145 145);
+  margin: 50px; 
+  border-radius: 30px;
+  background-color: #9cffde;
+}
+
+.table {
+  color: #a52626;
+}
+
+.text-start1 {
+  color: #e2741b;
+}
+
+.text-start2 {
+  color: #e2741b;
+}
+
+.text-start3 {
+  color: #e2741b;
+}
+
+.text-start4 {
+  color: #e2741b;
+}
+  #submit{
+    color: #3500a2;
+    background-color: rgb(129 220 255);
+    font-weight: 500; 
+} 
